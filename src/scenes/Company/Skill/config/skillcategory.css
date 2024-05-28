@@ -1,0 +1,17 @@
+.tb_category .ant-table-row-level-0 td{
+    background: #9dc384;
+}
+.tb_category .ant-table-row-level-1 td a{
+    color: #ea3a24; 
+    font-weight: 700;
+}
+.tb_category .ant-table-row-level-0 td a{
+    color: #000;
+    font-weight: 700;
+}
+.tb_category  .ant-table-row-level-1 td{
+    background: #ffff54;
+}
+.tb_category  .ant-table-row-level-2 td{
+    background: #fff;
+}

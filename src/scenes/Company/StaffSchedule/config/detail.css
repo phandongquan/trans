@@ -1,0 +1,52 @@
+.table-staff-schedule {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    max-height: 45em;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.table-staff-schedule td,th {
+    border: solid 1px #F0F2F5;
+}
+
+.table-staff-schedule .col-left-fixed {
+    position: sticky;
+    z-index: 3;
+    background-color: #F1F7FF;
+}
+
+.table-staff-schedule .top-fixed {
+    z-index: 4;
+    background-color: #D9EBE1;
+}
+
+.table-staff-schedule .col-left-fixed.col-no {
+    left: 0;
+    min-width: 50px !important;
+    text-align: center;
+}
+
+.table-staff-schedule .col-left-fixed.col-staff {
+    left: 50px;
+    min-width: 240px!important;
+    padding: 0 7px;
+}
+
+.table-staff-schedule .col-left-fixed.col-hc {
+    left: 290px;
+    min-width: 50px!important;
+    text-align: center;
+}
+
+.table-staff-schedule .text-shift {
+    min-width: 40px;
+}
+
+.table-staff-schedule .text-result {
+    min-width: 57px;
+}
+.calendar-staff-schedule .ant-picker-calendar-header{
+    display: none;
+}

@@ -1,0 +1,28 @@
+.checklist-container {
+    padding: 10px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    display: inline-flex;
+    flex-wrap: nowrap;
+
+    .checklist-section {
+        height: 150px;
+        background-color: #fff;
+        display: inline-block;
+        margin-right: 10px;
+        position: relative;
+    
+        .checklist-item {
+            border: 0.1px solid #000;
+            float: left;
+            background-color: #ccc;
+            cursor: pointer;
+        }
+    }
+}
+.block_scroll_diagrame_store{
+    width: 100%;
+    overflow-x: scroll;
+    margin-bottom: 20px;
+}
+

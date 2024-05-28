@@ -1,0 +1,253 @@
+@import 'header';
+@import 'sidebar';
+@import 'main';
+
+a:hover{
+    text-decoration: none;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.position-absolute-full{
+  position: absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.bg-disabled{
+  background-color: #d2d6de;
+}
+.box-shadow{
+  box-shadow: 0 3px 6px rgba(0,0,0,.06);
+}
+.border-2{
+  border-width: 2px;
+}
+.border-dashed{
+    border-style: dashed !important;
+}
+.border-top-width-md{
+  border-top-width: 3px !important;
+}
+.overflow-hidden{
+  overflow: hidden;
+}
+.invalid-feedback{
+    display: block;
+}
+.input-text-right input[type=text]{
+  text-align: right;
+}
+.editable-cell {
+    position: relative;
+  }
+  
+  .editable-cell-value-wrap {
+    padding: 5px 12px;
+    cursor: pointer;
+  }
+  .editable-row .editable-cell-value-wrap {
+    border: 1px dashed #d9d9d9;
+    border-radius: 4px;
+    padding: 4px 11px;
+  }
+  .editable-row:hover .editable-cell-value-wrap {
+    border: 1px solid #d9d9d9;
+  }
+  [data-theme='dark'] .editable-row .editable-cell-value-wrap {
+    border: 1px solid #434343;
+  }
+//   [data-theme='dark'] .editable-row:hover .editable-cell-value-wrap {
+//     border: 1px solid #434343;
+//   }
+.anticon svg{
+  // margin-top: -3px;
+  vertical-align: initial;
+}
+.hidden-btn-cancel .ant-btn:first-child{
+  display: none;
+}
+.draw-transparent{
+  .ant-drawer-content{
+    background-color: transparent;
+  }
+}
+.icon-fixed{
+  position: fixed;
+  right: 20px;
+  bottom: 10px;
+  color: rgba(0,0,0,.5);
+  transition: all 0.3s;
+  font-size: 20px;
+  cursor: pointer;
+  &:hover{
+    color: rgba(0,0,0,1);
+  }
+}
+.disabled-row{
+  color: #969090;
+  td{
+    background-color: rgba(0, 0, 0, 0.1) !important;
+  }
+  .ant-list{
+    color: #969090;
+  }
+  &:hover{
+    td{
+      background-color: rgba(0, 0, 0, 0.1) !important;
+    }
+  }
+}
+.td-align-top td{
+  vertical-align: top;
+}
+.link-active-primary{
+  font-weight: bold;
+  line-height: 64px;
+  background-color: $pro-header-hover-bg;
+  display: block;
+  // color: $primary !important;
+}
+
+.dot-line{
+  flex: 1;
+  position: relative;
+  min-width: 50px;
+  &::after{
+    content: "";
+    position: absolute;
+    left: -4px;
+    right: 0;
+    bottom: 0;
+    border-bottom: 1px dotted $secondary;
+  }
+}
+.divider-black{
+  &::before,&::after{
+    border-top-color: #000 !important;
+  }
+}
+.cursor-highlight:hover{
+  color: $primary !important;
+  *{
+    color: $primary !important;
+  }
+}
+.font-size-16{
+  font-size: 16px !important;
+}
+.bg-header{
+  background-color: $bg-header;
+  color: #fff;
+}
+.bg-footer{
+  background-color: $bg-footer;
+}
+.text-input-right{
+  input{
+    text-align: right;
+  }
+}
+.table-hide-empty{
+  .ant-table-placeholder{
+    display: none;
+  }
+}
+.hide-empty{
+  .ant-empty-normal{
+    display: none;
+  }
+}
+.row-dragging {
+  background: #fafafa;
+  border: 1px solid #ccc;
+  height: auto !important;
+}
+
+.row-dragging td {
+  padding: 5px 16px;
+  visibility: hidden;
+}
+
+.row-dragging .drag-visible {
+  visibility: visible;
+}
+.table-row-dragging{
+  .hide-when-dragging{
+    display: none;
+  }
+}
+.spa-avatar{
+  img{
+    object-fit: unset;
+  }
+}
+.site-badge-count-4 .ant-badge-count {
+  background-color: #fff;
+  color: #999;
+  box-shadow: 0 0 0 1px #d9d9d9 inset;
+}
+.tr-hide{
+  td 
+  {
+    padding: 0 !important;
+    *{
+      display: none;
+    }
+  }
+}
+
+.timeline-custom.ant-timeline.ant-timeline-label{
+  .ant-timeline-item-label{
+    width: 120px;
+  }
+  .ant-timeline-item-tail, .ant-timeline-item-head, .ant-timeline-item-head-custom{
+    left: 130px;
+  }
+  .ant-timeline-item-left .ant-timeline-item-content{
+    left: 125px;
+    width: calc(100% - 150px);
+  }
+}
+.descriptions-custom{
+  // .ant-descriptions-item-label{
+  //   width: 180px;
+  // }
+  .ant-descriptions-title{
+    margin-bottom: 5px;
+  }
+}
+svg.svg-inline--fa {
+  min-width: 13px;
+}
+.text-info-important{
+  *{
+    color: $info !important;
+  }
+}
+.form-hide-message{
+  .ant-form-item-explain{
+    display: none;
+  }
+}
+.tr-active td{
+  background-color: #e8f9ff !important;
+}
+.tr-disable td{
+  background-color: #cccfd0 !important;
+}
+.bg-disable{
+  background-color: #e8e8e8 !important;
+}
+.select-treatment{
+  .ant-select-selector{
+    height: 50px !important;
+    .ant-select-selection-item{
+      line-height: 15px;
+    }
+  }
+}
+.ril-inner img{
+  max-height: none;
+}

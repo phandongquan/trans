@@ -1,0 +1,9 @@
+.bg-done, .bg-done td {
+    background-color: #a5e9a5 !important;
+}
+.bg-choose, .bg-choose td {
+    background-color: rgb(166 212 243) !important
+}
+.bg-error, .bg-error td  {
+    background-color: #ec8d8a !important
+} 

@@ -1,0 +1,131 @@
+.table-responsive {
+  max-height: 45em;
+}
+
+thead th {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  justify-content: center;
+}
+
+.table thead th {
+  vertical-align: top !important;
+  text-align: center;
+  padding: 5px;
+  line-height: 1.5;
+}
+
+.col-no {
+  position: sticky;
+  left: 0;
+  z-index: 3;
+  min-width: 50px;
+  width: 40px !important;
+  background-color: #fff;
+}
+
+.col-staff {
+  position: sticky;
+  left: 50px;
+  z-index: 3;
+  min-width: 330px !important;
+  background-color: #fff;
+}
+
+.col-total-skill {
+  position: sticky;
+  left: 379px;
+  z-index: 3;
+  min-width: 40px;
+  background-color: #fff;
+}
+
+.col-head-left {
+  z-index: 4 !important;
+}
+
+.col-min-width {
+  min-width: 80px !important;
+}
+
+.col-head-skill {
+  font-size: 12px;
+}
+
+.col-group-1 {
+  background-color: rgba(0,0,0,.1);
+}
+
+.bg-green {
+  background-color: rgba(0, 166, 90, .2) !important;
+}
+
+.bg-dark-green {
+  background-color: rgba(0, 166, 90, .6) !important;
+}
+
+.bg-grey {
+  background-color: rgba(0,0,0,.2) !important;
+}
+
+.bg-blue {
+  background-color: #0073b7 !important;
+}
+
+.table-2 {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.staff_name {
+  color: #0073b7 !important;
+  cursor: pointer;
+}
+.staff-info{
+  font-weight: bold;
+  line-height: 2.5;
+}
+.table-skill .ant-table-thead > tr > th {
+  padding: 0px 3px 0px 0px;
+  text-align: center;
+  font-size: 10px;
+}
+.table-skill .ant-table-thead{
+  height: 130px;
+}
+.table-skill .ant-table-cell{
+  padding: 5px !important;
+}
+.table-skill .header-text-parent{
+  text-align: center !important;
+}
+.table-skill .header-text-child-0 {
+  color: white;
+  background-color: #C0D9CC;
+  text-align: center !important;
+}
+.table-skill .header-text-child-1 {
+  color: white;
+  background-color: #73C89E;
+  text-align: center !important;
+}
+.table-skill .header-text-parent-0 {
+  color: white;
+  background-color: #C0D9CC;
+  text-align: center !important;
+}
+
+.table-skill .header-text-parent-1 {
+  color: white;
+  background-color: #73C89E;
+  text-align: center !important;
+}
+.children-title {
+  height: 38px;
+  line-height: 1.2;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}

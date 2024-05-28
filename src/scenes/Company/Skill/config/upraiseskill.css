@@ -1,0 +1,7 @@
+.bg-warning-request-skill{
+    background: #ffd4a9;
+}
+.badge-dropdown-status .ant-badge-status-dot {
+    width: 10px !important;
+    height: 10px !important;
+}

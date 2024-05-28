@@ -1,0 +1,11 @@
+.ant-comment-inner{
+    padding: 8px 6px !important;
+    background-color: #f9f9f9;
+    border-top: 1px solid #eee;
+    margin-bottom: 6px;
+}
+.ql-disable .ql-editor {
+    background-color: #f6f6f6;
+    cursor: no-drop;
+    color: #bbb;
+}

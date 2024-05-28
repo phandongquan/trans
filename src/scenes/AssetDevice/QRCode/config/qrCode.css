@@ -1,0 +1,20 @@
+.items-delete-qrcode :hover{
+    color: red;
+}
+.items-delete-qrcode {
+    font-size: '18px';
+}
+.add-field-qrcode{
+    color: #306e51;
+    font-weight: 700;
+}
+/* .menu-fields-qrcode .ant-dropdown-menu-title-content{
+    border-bottom: 1px solid black;
+    padding: 5;
+} */
+.text-view-qrcode {
+    color: rgb(172, 167, 167);
+}
+.bg-light-yellow {
+    background-color: #f4f796;
+}

@@ -1,0 +1,32 @@
+ .image-member {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    object-fit: cover;
+ }
+
+ .general_information p {
+    margin: 0;
+ }
+
+ .general_information .content {
+    display: flex;
+ }
+
+ .general_information .content .left {
+    width: 50%;
+    padding-right: 20px;
+ }
+
+ .general_information .content .right {
+    width: 50%;
+    padding-left: 20px;
+ }
+
+ .image_qr_code {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }

@@ -1,0 +1,32 @@
+
+table.project-task.table-striped tbody tr:nth-of-type(odd){
+    background-color: rgba(0, 0, 0, 0.03) 
+}
+table.project-task.table th, table.project-task.table td{
+    border: none;
+    border-top: .1px solid rgba(0, 0, 0, 0.02) ;
+}
+
+.subtask {
+    padding-left: 20px !important;
+    position: relative;
+}
+.subtask::before {
+    content: "";
+    background-color: #999;
+    width: 20px;
+    height: 2px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 22px;
+}
+.subtask::after {
+    content: "";
+    background-color: #999;
+    width: 2px;
+    height: 22px;
+    left: 0;
+    top: 0;
+    position: absolute;
+}

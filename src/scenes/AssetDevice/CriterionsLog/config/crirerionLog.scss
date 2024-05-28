@@ -1,0 +1,22 @@
+.diagram-criterion-log {
+    margin-bottom: 10px;
+    width: 100%;
+
+    .td-header {
+        background-color: #e4e6e9 !important;
+        border: 1px solid #d2d4d6;
+        font-weight: 600;
+    }
+    
+    td {
+        padding: 10px;
+        border: 1px solid #d2d4d6;
+        background-color: #fff;
+    }
+
+    .td-part {
+        padding: 7px !important;
+        background-color: #fafafa !important;
+        border: 1px solid #d2d4d6;
+    }
+}

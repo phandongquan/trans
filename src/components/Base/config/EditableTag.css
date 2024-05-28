@@ -1,0 +1,19 @@
+.site-tag-plus {
+    background: #fff;
+    border-style: dashed;
+  }
+  .edit-tag {
+    user-select: none;
+    margin-bottom: 0.3rem !important;
+  }
+  .tag-input {
+    padding: 4px 11px !important;
+    margin-right: 8px;
+    vertical-align: top;
+    margin-bottom: 0.5rem !important;
+  }
+    [data-theme="dark"] .site-tag-plus {
+      background: transparent;
+      border-style: dashed;
+    }
+  

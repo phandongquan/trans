@@ -1,0 +1,25 @@
+.ant-radio-disabled + span {
+    color: initial !important;
+}
+.ant-radio-wrapper.correct span {
+    color: green !important;
+    font-weight: bold;
+}
+
+.ant-radio-wrapper.in-correct span {
+    color: red !important;
+    font-weight: bold;
+}
+.ant-radio-wrapper.warning span {
+    color: rgb(245, 162, 10) !important;
+    font-weight: bold;
+}
+.title-info{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /* Number of lines to show */
+    -webkit-box-orient: vertical;
+     line-height: 20px;
+}

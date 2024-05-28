@@ -1,0 +1,25 @@
+.table_cond_redirect {
+    border: 1px solid #dfdfdf;
+    margin-top: 10px;
+    padding-left: 6px;
+
+    .col_header {
+        background-color: #eee;
+        padding: 0;
+        font-weight: bold;
+        padding: 12px;
+        border-right: 2px solid #dfdfdf;
+    }
+
+    .flow_config_group:nth-child(2n) {
+        background-color: #fafafa;
+        
+    }
+    
+    .flow_config_group {
+        padding: 10px;
+        padding-top: 20px;
+        border-bottom: 1px solid #dfdfdf;
+        margin-left: -6px;
+    }
+}

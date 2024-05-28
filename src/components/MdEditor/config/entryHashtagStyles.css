@@ -1,0 +1,71 @@
+.hashtag {
+  color: #4a85bb;
+  text-decoration: none;
+}
+
+.hashtagSuggestions {
+  border-top: 1px solid #eee;
+  background: #fff;
+  border-radius: 2px;
+  cursor: pointer;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  transform-origin: 50% 0%;
+  transform: scaleY(0);
+  margin: -16px;
+}
+
+.hashtagSuggestionsEntryContainer {
+  display: table;
+  width: 100%;
+}
+
+.hashtagSuggestionsEntryContainerLeft,
+.hashtagSuggestionsEntryContainerRight {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.hashtagSuggestionsEntryContainerRight {
+  width: 100%;
+  padding-left: 8px;
+}
+
+.hashtagSuggestionsEntry {
+  padding: 7px 10px 3px 10px;
+  transition: background-color 0.4s cubic-bezier(.27,1.27,.48,.56);
+}
+
+.hashtagSuggestionsEntry:active {
+  background-color: #cce7ff;
+}
+
+.hashtagSuggestionsEntryFocused {
+  composes: hashtagSuggestionsEntry;
+  background-color: #e6f3ff;
+}
+
+.hashtagSuggestionsEntryText,
+.hashtagSuggestionsEntryTitle {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.hashtagSuggestionsEntryText {
+}
+
+.hashtagSuggestionsEntryTitle {
+  font-size: 80%;
+  color: #a7a7a7;
+}
+
+.hashtagSuggestionsEntryAvatar {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}

@@ -1,0 +1,35 @@
+.card-staff-skill-log .ant-card-head-title{
+    text-align: center;
+}
+
+.card-staff-skill-log .ant-card-body {
+    padding: 5px 5px 0 5px !important;
+    height: 87px;
+}
+
+.card-staff-skill-log .statistical {
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.card-staff-skill-log .card-child {
+    border-right: 1px solid #F0F0F0;
+    border-top: 1px solid #F0F0F0;
+    text-align: center;
+    padding: 0 !important;
+}
+
+.card-staff-skill-log .card-child:nth-child(3) {
+    border-right: none;
+}
+
+.card-staff-skill-log .card-child .card-child-title {
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 11px;
+}
+
+.card-staff-skill-log .card-child .card-child-result {
+    margin-top: 2px;
+    font-weight: 600;
+}

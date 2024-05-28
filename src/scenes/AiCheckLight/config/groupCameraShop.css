@@ -1,0 +1,13 @@
+.item_status_shop .ant-tag{
+    font-size: 0!important;
+    width: 15px!important;
+    height: 15px!important;
+    border-radius: 50%!important;
+    padding: 0!important;
+}
+.offline .ant-progress-text {
+    color: rgb(150 156 161);
+}
+.offline .ant-progress-inner {
+    border: 1px solid #bfbfbf6b;
+}

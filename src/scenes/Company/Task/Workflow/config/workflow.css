@@ -1,0 +1,10 @@
+.bg-archive {
+    background: #faffd2d1;
+}
+
+#doughnut_chart {
+    width: 100%;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}

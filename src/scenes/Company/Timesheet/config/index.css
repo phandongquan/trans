@@ -1,0 +1,27 @@
+.bg-yellow {
+    background-color: rgb(243,156,18);
+}
+
+.bg-red {
+    background-color: rgb(221,75,57);
+}
+
+.bg-leave-day {
+    background-color: #ffa1a1;
+}
+
+.bg-sunshine {
+    background-color: #f7f7e4;
+}
+
+.table-report-timesheet th.ant-table-cell {
+    position: sticky;
+    top: 62px;
+    z-index: 10;
+}
+.table-report-timesheet .ant-empty{
+    margin-top: 200px!important;
+}
+.ant-form-item button svg{
+    margin-right: 5px;
+}

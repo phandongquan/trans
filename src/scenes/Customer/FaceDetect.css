@@ -1,0 +1,18 @@
+.input_video {
+    display:none;
+    top: 0;
+    left: 0;
+    height: 576px;
+    width: 720px;
+}
+.input_video .selfie {
+    transform: scale(-1, 1);
+}
+.output_canvas {
+    
+    height: 320px;
+    width: 460px;
+    left: 0;
+    top: 0;
+}
+  

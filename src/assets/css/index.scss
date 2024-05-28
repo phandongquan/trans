@@ -1,0 +1,59 @@
+//@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,600,700&display=swap");
+
+@import 'variables';
+@import '~bootstrap/scss/bootstrap.scss';
+
+@import './components/index.scss';
+@import './components/print';
+
+body {
+    .pt-0 {
+        padding-top: 0 !important;
+    }
+    .pb-0 {
+        padding-bottom: 0 !important;
+    }   
+    .no-padding{
+        padding: 0 !important;
+    }
+    .no-padding-tb{
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    .no-margin{
+        margin: 0 !important;
+    }
+    .no-margin-tb{
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+}
+
+
+.ant-table-content{
+    .ant-table-thead{
+        .ant-table-cell{
+            font-weight: bold;
+        }
+    }
+}
+
+.ant-table-thead > tr > th, 
+.ant-table-tbody > tr > td, 
+.ant-table tfoot > tr > th, 
+.ant-table tfoot > tr > td { padding: 10px 10px}
+
+.card,
+.ant-table {
+    border-top: 3px solid #ddd;
+}
+.ant-tabs-top > .ant-tabs-nav{
+    margin-bottom: 0 !important;
+}
+.ant-form-item {
+    margin-bottom: 14px;
+}
+.ant-badge-status-dot {
+    width: 13px;
+    height: 13px !important;
+}

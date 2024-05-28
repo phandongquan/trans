@@ -1,0 +1,12 @@
+.table-container .ant-table-tbody>tr:nth-child(-n+4) {
+  background-color: #d3f9d8;
+}
+// .table-container .ant-table-tbody>tr:nth-child(n+5) {
+//   background-color: #DCFAEA;
+// }
+
+
+.table-container th,
+.table-container td {
+  border: 0.5px solid #343a40;
+}

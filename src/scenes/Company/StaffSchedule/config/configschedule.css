@@ -1,0 +1,13 @@
+.calendar-config-schedule .header-calendar{
+    width: 14%;
+    align-items: center;
+}
+.calendar-config-schedule .body-calendar{
+    width: 14%;
+    border-top: none !important;
+    align-items: center;
+    padding: 50px;
+    justify-content: center;
+    cursor: pointer;
+    text-align: center;
+}

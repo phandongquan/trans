@@ -1,0 +1,21 @@
+.main-content {
+    margin: 0px 20px;
+    // padding-top: $layout-header-height;
+  }
+  .screen_xs {
+    .main-content{
+      margin: 20px 5px;
+    }
+  }
+.big-size{
+  .ant-input-affix-wrapper{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .ant-btn-lg{
+    height: 47px;
+  }
+  .btn{
+    padding: 10px 0.75rem;
+  }
+}

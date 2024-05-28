@@ -1,0 +1,44 @@
+.analysis-training {
+    .top-block {
+        width: 100%;
+        gap: 20px;
+        display: flex;
+
+        .left-block {
+            width: 30%;
+
+            .image-block img {
+                border-radius: 10px;
+            }
+        }
+
+        .right-block {
+            width: 70%;
+        }
+    }
+
+    .center-block {
+        width: 100%;
+        gap: 20px;
+        display: flex;
+        margin-top: 20px;
+
+        .left-block {
+            width: 50%;
+
+            .image-block img {
+                border-radius: 10px;
+            }
+        }
+
+        .right-block {
+            width: 50%;
+        }
+    }
+
+    .label::before {
+        content: '*';
+        margin-right: 4px;
+        color: red;
+    }
+}

@@ -1,0 +1,17 @@
+.staff_image.ant-image-img {
+    border-radius: 32px;
+}
+.text_block_supervise{
+    font-weight: 700;
+    font-size: 15px;
+}
+.block_hide{
+    display: none;
+}
+.block_hide.showinfo{
+    display: block;
+}
+.btn_reset_pass{
+    border: none0!important;
+    padding: 0!important;
+}

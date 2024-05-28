@@ -1,0 +1,20 @@
+.tb_schedule_dashboard {
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+}
+
+.tb_schedule_dashboard .title_table td {
+    background: #D9EBE1;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.tb_schedule_dashboard td {
+    border: 1px solid #eaeaea;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.txt_bold {
+    font-weight: 700;
+}

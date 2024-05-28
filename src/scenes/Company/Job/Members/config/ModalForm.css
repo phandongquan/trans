@@ -1,0 +1,12 @@
+.modal-form-candidate p {
+    margin: 0;
+}
+
+.modal-form-candidate .ant-form-item {
+    margin: 5px;
+}
+
+.title-member-form {
+    margin-top: auto;
+    margin-bottom: auto;
+}

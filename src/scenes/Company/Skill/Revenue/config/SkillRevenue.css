@@ -1,0 +1,28 @@
+.block-report {
+    border-radius: 6px !important;
+    min-height: 130px;
+}
+
+.block-report.border-blue {
+    border-bottom: 4px solid #466cc3 !important;
+}
+
+.block-report.border-pink {
+    border-bottom: 4px solid #c52b5b !important;
+}
+.block_info_staff{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.block_avata{
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+}
+.block_avata img{
+    vertical-align: middle;
+}
+.block_avata .anticon{
+    display: block;
+}

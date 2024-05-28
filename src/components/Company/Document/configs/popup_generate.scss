@@ -1,0 +1,96 @@
+#body_generate {
+    display: flex;
+    gap: 10px;
+    height: 600px;
+    .left {
+        width: 50%;
+    }
+    .right {
+        width: 50%;
+        scroll-behavior: smooth;
+        overflow-y: scroll;
+        height: 100%;
+    }
+
+    .delete_btn {
+        padding: 0px !important;
+        margin-left: 2px;
+        margin-top: -5px;
+        display: none;
+    }
+
+    button {
+        padding: 0px;
+    }
+
+    .answer:hover .delete_btn {
+        display: block;
+        transition: all 0.3s;
+    }
+
+    .question_text:hover .delete_btn {
+        display: block;
+        transition: all 0.3s;
+    }
+
+    .right::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    .actions {
+        display: flex;
+        gap: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .question_title {
+        font-weight: bold;
+    }
+
+    .questions_title_text {
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .question .ant-typography {
+        margin: 0;
+    }
+
+    .answer {
+        display: flex;
+    }
+
+    .answer_title {
+        display: block;
+        margin: 0;
+        width: 100%;
+    }
+
+    .answer_icon {
+        // display: block;
+        // gap: 10px;
+    }
+
+    .ant-radio-wrapper {
+        display: flex !important;
+        width: 100%;
+    }
+
+    .edit_content {
+        margin-left: 5px;
+        margin-top: auto;
+        margin-bottom: auto;
+        display: block;
+        color: #1890ff;
+        cursor: pointer;
+    }
+
+    .ant-checkbox-wrapper {
+        margin: 0;
+    }
+
+    .answer_radio {
+        width: 100%;
+    }
+}
